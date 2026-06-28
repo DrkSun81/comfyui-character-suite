@@ -8,7 +8,7 @@ A node suite for prompt engineering with persistent character and segment librar
 
 ```bash
 cd ComfyUI/custom_nodes/
-git clone https://github.com/yourname/comfyui-character-suite
+git clone https://github.com/DrkSun81/comfyui-character-suite
 # or extract the zip directly into custom_nodes/
 ```
 
