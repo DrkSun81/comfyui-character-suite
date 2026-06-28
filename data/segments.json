@@ -1,0 +1,18 @@
+{
+  "segments": [
+    {
+      "id": "d9787c4f",
+      "category": "clothing",
+      "label": "school casual",
+      "content": "thighhighs, pleated skirt, blazer, school uniform",
+      "created": 1782498593
+    },
+    {
+      "id": "1c09f1c2",
+      "category": "character",
+      "label": "e.g. school uniform casual",
+      "content": "embedding:Lazy\\lazypos, embedding:WaiIL25PosC, <lora:illustrious\\new\\SemiRealistic_Custom_Style.safetensors:1.0>, <lora:illustrious\\Anime_Detailer.safetensors:0.75>, <lora:illustrious\\eye_focus_illus.safetensors:1.0>, <lora:SDXL 1.0\\Furry enhancer 2025V8.2.safetensors:0.65>, (style: anime, kawaii, pastel_coloring, soft_gradient, glossy_finish, thick_lineart), (quality: HDR, 8k, masterpiece, ultra_realistic, highly_detailed, sharp_focus), 1girl, (anthro:1.5), (solo_female:1.3), (feline_female:1.5), mature_female, (lioness_anthro:1.5), (lioness_girl:1.5), (appearance: lioness_fur, golden_tan_fur, white_fur_accents, feline_face, lioness_muzzle, lioness_ears, long_lion_tail, tufted_tail, powerful_curvy_body, thick_thighs, wide_hips, large_breasts, perky_breasts, long_wavy_messy_red_hair, hair_over_one_eye, light_green_eyes, gradient_eyes, sparkling_eyes),, (clothing: black_lace_blouse_partially_open, deep_v_neckline, black_leather_skirt_hiked_up, fishnet_stockings, thighhighs, silver_jewelry, gothic_choker), (setting: bedroom, elegant_bedroom, on_bed, candlelit, dim_warm_lighting, rose_petals, fancy_hotel, highly_detailed_background, bokeh), (action: seductive_pose, sitting_on_bed, sultry_smile, blushing)",
+      "created": 1782654322
+    }
+  ]
+}
