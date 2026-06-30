@@ -1,3 +1,9 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Personal runtime data — characters.json/segments.json ship with small seed
+# examples in the repo already; don't let a local `git add -A` overwrite them
+# with a user's actual library, and never publish the local LoRA tag cache
+# (it's a scan of someone's personal model folder, not project content).
+data/loras_tags.json

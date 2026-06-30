@@ -230,4 +230,4 @@ Heuristics run first; only unmatched tags are sent to the LLM. Any instruct mode
 | Python | 3.9+ (3.11 recommended, tested) |
 | Frontend | Sidebar tab requires ComfyUI frontend 1.x (`extensionManager` API); older builds get a floating panel fallback |
 | OS | Windows, Linux, macOS |
-| Dependencies | None (stdlib only) |
+| Dependencies | None required (stdlib only). If `requests` is already importable in your environment, the CivitAI tag fetch uses it for more reliable HTTP handling; otherwise it transparently falls back to `urllib`. |

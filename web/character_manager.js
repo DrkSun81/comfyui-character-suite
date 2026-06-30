@@ -13,6 +13,7 @@ const API_BASE = "/character_suite";
 async function apiFetch(path, options = {}) {
   const res = await fetch(API_BASE + path, {
     headers: { "Content-Type": "application/json" },
+    cache: "no-store", // this is live CRUD data; a cached GET here re-shows pre-edit content after a save
     ...options,
   });
   if (!res.ok) throw new Error(`API error ${res.status}: ${await res.text()}`);
